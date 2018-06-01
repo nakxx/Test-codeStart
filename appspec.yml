@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /webpage
-    destination: /var/www/html/demo-new/
+    destination: /var/www/html/
