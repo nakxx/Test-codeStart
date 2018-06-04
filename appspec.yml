@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /webpage
-    destination: /var/www/html/Rajan-website
+    destination: /var/www/html/nakul-website
 hooks:
   AfterInstall:
     - location: scripts/CheckHttpd
