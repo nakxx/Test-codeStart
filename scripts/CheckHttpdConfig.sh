@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sudo echo "<VirtualHost *:80>
     ServerName subodh.com
     ServerAlias www.subodh.com
