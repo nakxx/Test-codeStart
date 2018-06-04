@@ -5,6 +5,6 @@ files:
     destination: /var/www/html/Subodh-website
 hooks:
   AfterInstall:
-    - location: scripts/CheckHttpdConfig.sh
+    - location: scripts/CheckHttpd.sh
       timeout: 300
       runas: root
