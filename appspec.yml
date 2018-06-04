@@ -2,4 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /webpage
-    destination: /var/www/html/nakul-website
+    destination: /var/www/html/Subodh-website
+hooks:
+  AfterInstall:
+    - location: scripts/CheckHttpdConfig.sh
+      timeout: 300
+      runas: root
