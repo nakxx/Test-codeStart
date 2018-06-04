@@ -1,12 +1,12 @@
 #!/bin/bash
 
-mkdir /var/www/html/nakul-website
+mkdir /var/www/html/Rajan-website
 sudo echo "<VirtualHost *:80>
     ServerName nakul.com
     ServerAlias www.nakul.com
-    DocumentRoot /var/www/html/nakul-website
-    ErrorLog ${APACHE_LOG_DIR}/nakul-website_error.log
-    CustomLog ${APACHE_LOG_DIR}/nakul-website_access.log combined
+    DocumentRoot /var/www/html/Rajan-website
+    ErrorLog ${APACHE_LOG_DIR}/Rajan-website_error.log
+    CustomLog ${APACHE_LOG_DIR}/Rajan-website_access.log combined
 </VirtualHost>" >> /etc/httpd/conf/httpd.conf
 
 status=$(service httpd configtest 2>&1 | grep "OK" | wc -l)
