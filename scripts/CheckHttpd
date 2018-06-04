@@ -2,8 +2,8 @@
 
 mkdir /var/www/html/Rajan-website
 sudo echo "<VirtualHost *:80>
-    ServerName nakul.com
-    ServerAlias www.nakul.com
+    ServerName dilshad.com
+    ServerAlias www.dilshad.com
     DocumentRoot /var/www/html/Rajan-website
     ErrorLog ${APACHE_LOG_DIR}/Rajan-website_error.log
     CustomLog ${APACHE_LOG_DIR}/Rajan-website_access.log combined
