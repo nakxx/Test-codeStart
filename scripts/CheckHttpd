@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mkdir /var/www/html/nakul-website
 sudo echo "<VirtualHost *:80>
     ServerName nakul.com
     ServerAlias www.nakul.com
